@@ -1,0 +1,208 @@
+﻿<skin>
+  <skininfo>
+    <name>Minimal</name>
+    <author>ValeraGin</author>
+    <details>2.11.11</details>
+  </skininfo>
+
+  <main>
+    <form caption="Simple Player" backgroundimage='background.png'>
+     
+      <button
+       id="playpause"
+       x="2" y="24"
+       image="playpause.png"
+       imgstates="2"
+       count="4"/>
+      
+      <button 
+        id="stop"
+        x="12" y="2"
+        image="stop.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="prev"
+        x="2" y="88"
+        image="prev.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="next"
+        x="51" y="88"
+        image="next.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="close"
+        x="305" y="36"
+        image="close.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="minimize"
+        x="282" y="36"
+        image="minimize.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button 
+        id="playlist"
+        x="266" y="109"
+        image="playlist.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="equalizer"
+        x="247" y="109"
+        image="equalizer.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="mainmenu"
+        x="228" y="109"
+        image="mainmenu.png"
+        imgstates="1"
+        count="4"/>
+      
+      <button
+        id="mute"
+        x="109" y="109"
+        image="mute.png"
+        imgstates="2"
+        count="3"/>
+      
+      <button
+        id="trackRepeat"
+        x="304" y="109"
+        image="trackrepeat.png"
+        imgstates="2"
+        count="3"/>
+      
+      <button
+        id="shuffle"
+        x="285" y="109"
+        image="shuffle.png"
+        imgstates="2"
+        count="3"/>
+
+      <text
+        id="artist"
+        font="Times New Roman; 9pt"
+        color="161; 161; 161"
+        x="110" y="47"
+        w="165" h="18" />
+
+      <text
+        id="title"
+        font="Times New Roman; 12pt"
+        color="105; 105; 105"
+        x="110" y="61"
+        w="212" h="20" />
+
+      <slider
+        id="seekbar"
+        ishorizontal="true"
+        isseekbar="true"
+        x="109" y="83"
+        background="seekbar.png"
+        thumb="seekthumb.png"/>
+
+      <slider
+        id="volumebar"
+        ishorizontal="true"
+        isseekbar="false"
+        x="125" y="114"
+        background="volumebar.png"
+        thumb="volumethumb.png"/>
+      
+    </form>
+
+    <playlistform caption="playlist" backgroundimage='playlistform.png'>
+     
+      <playlist
+        id="playlist"
+        x="23" y="35"
+        w="307" h="96"
+        backcolor="208; 208; 208"
+        selectedcolor="219; 219; 219"
+        playingcolor="219; 219; 219"
+        playingselectedcolor="219; 219; 219"
+        focuscolor="105; 105; 105"
+        
+        playlistScrollbarSkin="playlistScrollbarSkin.png"
+        playlistScrollbarThumbSkin="playlistScrollbarThumbSkin.png"
+        
+        itemnormallinefont="Times New Roman; 10pt"
+        itemnormalline2font="Times New Roman; 9pt"
+        itemnormallinecolor="132; 132; 132"
+        itemnormalline2color="132; 132; 132"
+        
+        itemplayinglinefont="Times New Roman; 10pt"
+        itemplayingline2font="Times New Roman; 9pt"
+        itemplayinglinecolor="89; 89; 89"
+        itemplayingline2color="132; 132; 132"
+        
+        itemselectedlinefont="Times New Roman; 10pt"
+        itemselectedline2font="Times New Roman; 9pt"
+        itemselectedlinecolor="105; 105; 105"
+        itemselectedline2color="105; 105; 105"
+        
+        itemplayingselectedlinefont="Times New Roman; 10pt"
+        itemplayingselectedline2font="Times New Roman; 9pt"
+        itemplayingselectedlinecolor="105; 105; 105"
+        itemplayingselectedline2color="105; 105; 105"
+       />
+      
+      
+      
+      <playlisttabs id="playlisttabs"
+        tabsskin="tabsskin.png"
+        tabprev="tabprev.png"                      
+        tabnext="tabnext.png"         
+        tabsoffset=""
+                    
+        tabnormaltextfont="Times New Roman; 10pt"
+        tabnormaltextcolor="161; 161; 161"  
+                    
+        tabplayingtextfont="Times New Roman; 10pt"
+        tabplayingtextcolor="105; 105; 105"
+                  
+        tabactivetextfont="Times New Roman; 10pt"
+        tabactivetextcolor="105; 105; 105"
+                
+        tabactiveplayingtextfont="Times New Roman; 10pt"
+        tabactiveplayingtextcolor="105; 105; 105"      
+                    
+        font="Tahoma; 8pt"
+        color="161; 161; 161"
+                    
+        x="38" y="2"
+        w="292" h="35" 
+        />
+      
+      
+      
+      <button
+        id="addmenu"
+        x="27" y="151"
+        image="addmenu.png"
+        imgstates="1"
+        count="4"/>
+
+      <button
+       id="deletemenu"
+       x="46" y="151"
+       image="deletemenu.png"
+       imgstates="1"
+       count="4"/>
+
+    </playlistform>
+  </main>
+</skin>

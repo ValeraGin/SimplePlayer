@@ -1,0 +1,5 @@
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\ControlsEx\bin\Release\ControlsEx.dll
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\ControlsEx\bin\Release\ControlsEx.pdb
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\ControlsEx\obj\Release\ResolveAssemblyReference.cache
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\ControlsEx\obj\Release\ControlsEx.dll
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\ControlsEx\obj\Release\ControlsEx.pdb

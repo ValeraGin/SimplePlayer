@@ -1,0 +1,5 @@
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\BassWrapper\bin\Debug\BassWrapper.dll
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\BassWrapper\bin\Debug\BassWrapper.pdb
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\BassWrapper\obj\Debug\ResolveAssemblyReference.cache
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\BassWrapper\obj\Debug\BassWrapper.dll
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\BassWrapper\obj\Debug\BassWrapper.pdb

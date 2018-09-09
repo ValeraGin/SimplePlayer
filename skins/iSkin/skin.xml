@@ -1,0 +1,391 @@
+﻿<skin>
+  <skininfo>
+    <name>iSkin</name>
+    <author>ValeraGin</author>
+    <details>2.11.11</details>
+  </skininfo>
+
+  <main>
+    <form caption="Simple Player (iSkin)">
+
+      <panel id="mainclient" skin="background.png" dock='Fill' maxsize='350;154'>
+        <button
+         id="playpause"
+         x="156" y="116"
+         image="playpause.png"
+         imgstates="1"
+         count="4"/>
+
+        <button
+          id="stop"
+          x="86" y="121"
+          image="stop.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="prev"
+          x="119" y="119"
+          image="prev.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="next"
+          x="199" y="119"
+          image="next.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="close"
+          x="329" y="4"
+          image="close.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="minimize"
+          x="307" y="4"
+          image="minimize.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="playlist"
+          x="178" y="100"
+          image="playlist.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="equalizer"
+          x="204" y="100"
+          image="equalizer.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="mainmenu"
+          x="10" y="4"
+          image="mainmenu.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="mute"
+          x="236" y="100"
+          image="mute.png"
+          imgstates="2"
+          count="3"/>
+
+        <button
+          id="trackRepeat"
+          x="146" y="100"
+          image="trackrepeat.png"
+          imgstates="2"
+          count="3"/>
+
+        <button
+          id="shuffle"
+          x="120" y="100"
+          image="shuffle.png"
+          imgstates="2"
+          count="3"/>
+
+        <button
+          id="open"
+          x="236" y="121"
+          image="open.png"
+          imgstates="1"
+          count="4"/>
+
+        <button
+          id="playermode"
+          x="291" y="47"
+          image="playermode.png"
+          imgstates="3"
+          count="1"/>
+
+        <button
+          id="stayontop"
+          x="318" y="4"
+          image="stayontop.png"
+          imgstates="2"
+          count="3"/>
+
+        <button
+         id="options"
+         x="21" y="4"
+         image="options.png"
+         imgstates="1"
+         count="4"/>
+
+        <button
+          id="utilities"
+          x="32" y="4"
+          image="utilities.png"
+          imgstates="1"
+          count="4"/>
+
+        <slider
+          id="seekbar"
+          isseekbar="true"
+          ishorizontal="true"
+          x="67" y="83"
+          background="seekbar.png"
+          thumb="seekthumb.png"/>
+
+        <slider
+          id="volumebar"
+          isseekbar="false"
+          ishorizontal="true"
+          x="248" y="100"
+          background="volumebar.png"
+          thumb="volumethumb.png"/>
+
+        <slider
+          id="balancebar"
+          isseekbar="false"
+          ishorizontal="true"
+          x="23" y="100"
+          background="balancebar.png"
+          thumb="balancethumb.png"/>
+
+        <runstring
+          id="runstring"
+          x="17" y="22"
+          font="Tahoma; 7pt; style=Bold"
+          color="32; 32; 32"
+          skin="runstring.png"/>
+
+        <spectrum
+           id="spectrum"
+           x="67" y="40"
+           background="spectrum.png"
+           columncolor="128; 128; 128"
+           peakcolor="30; 30; 30"/>
+
+        <time
+           id="time"
+           x="287" y="83"
+           skin="time.png"/>
+
+        <time
+           id="brinfo"
+           x="301" y="64"
+           skin="info.png"/>
+
+        <time
+           id="srinfo"
+           x="305" y="71"
+           skin="info.png"/>
+        
+        
+      </panel>
+      
+      <panel id="maindockpanel" dock='Bottom' maxsize='350;4'>
+        <button
+          id="maindock"
+          x="0" y="0"
+          image="maindock.png"
+          imgstates="2"
+          count="1"/>
+       </panel>
+
+    </form>
+
+
+    <playlistform caption="playlist">
+      <panel id="common" dock='Fill'>
+        <panel id="containerpanel" dock='Fill' minsize='346;259'>
+          <playlist
+            id="playlist"
+            x="0" y="0"
+            w="346" h="259"
+            backcolor="255; 255; 255"
+            selectedcolor="61; 128; 223"
+            playingcolor="218; 228; 243"
+            playingselectedcolor="61; 128; 223"
+            focuscolor="255; 128; 0"
+        
+            playlistScrollbarSkin="playlistScrollbarSkin.png"
+            playlistScrollbarThumbSkin="playlistScrollbarThumbSkin.png"
+         
+            playlistScrollbarButtonDown="playlistScrollbarButtonDown.png"
+            playlistScrollbarButtonUp="playlistScrollbarButtonUp.png"
+        
+            itemnormallinefont="Tahoma; 9pt"
+            itemnormalline2font="Tahoma; 8pt"
+            itemnormallinecolor="0; 0; 0"
+            itemnormalline2color="128; 128; 128"
+        
+            itemplayinglinefont="Tahoma; 9pt"
+            itemplayingline2font="Tahoma; 8pt"
+            itemplayinglinecolor="0; 0; 0"
+            itemplayingline2color="128; 128; 128"
+        
+            itemselectedlinefont="Tahoma; 9pt"
+            itemselectedline2font="Tahoma; 8pt"
+            itemselectedlinecolor="255; 255; 255"
+            itemselectedline2color="255; 255; 255"
+        
+            itemplayingselectedlinefont="Tahoma; 9pt"
+            itemplayingselectedline2font="Tahoma; 8pt"
+            itemplayingselectedlinecolor="255; 255; 255"
+            itemplayingselectedline2color="255; 255; 255"
+       />
+        </panel>
+
+        <panel id="toppanel" skin='toppanelskin.png' dock='Top'>
+          <text
+            id="playlistduration"
+            font="Tahoma; 8pt"
+            color="96; 96; 96"
+            x="54" y="2"
+            w="55" h="14" />
+
+          <text
+            id="trackscount"
+            font="Tahoma; 8pt"
+            color="96; 96; 96"
+            x="157" y="2"
+            w="26" h="14" />
+
+          <text
+            id="sizeofplaylist"
+            font="Tahoma; 8pt"
+            color="96; 96; 96"
+            x="220" y="2"
+            w="53" h="14" />          
+        </panel>
+        
+        <panel id="toppanel" skin='tabpanelskin.png' dock='Top'>
+          <playlisttabs id="playlisttabs"
+            tabsskin="tabsskin.png"
+            tabprev="tabprev.png"
+            tabnext="tabnext.png"
+            tabsoffset=""
+                    
+            tabnormaltextfont="Tahoma; 8,25pt"
+            tabnormaltextcolor="161; 161; 161"
+                    
+            tabplayingtextfont="Tahoma; 8,25pt"
+            tabplayingtextcolor="105; 105; 105"
+                  
+            tabactivetextfont="Tahoma; 8,25pt"
+            tabactivetextcolor="105; 105; 105"
+                
+            tabactiveplayingtextfont="Tahoma; 8,25pt"
+            tabactiveplayingtextcolor="105; 105; 105"
+                    
+            font="Tahoma; 8pt"
+            color="161; 161; 161"
+                    
+            x="0" y="0"
+            w="338" h="18"
+        />
+        </panel>
+
+
+        <panel id="bottompanel" skin='bottompanelskin.png' dock='Bottom'>
+          <button
+            id="addmenu"
+            x="7" y="6"
+            image="addmenu.png"
+            imgstates="1"
+            count="4"/>
+			
+          <button
+            id="deletemenu"
+            x="33" y="6"
+            image="deletemenu.png"
+            imgstates="1"
+            count="4"/>		
+			
+          <button
+            id="miscmenu"
+            x="59" y="6"
+            image="miscmenu.png"
+            imgstates="1"
+            count="4"/>		
+			
+          <button
+            id="sortmenu"
+            x="85" y="6"
+            image="sortmenu.png"
+            imgstates="1"
+            count="4"/>
+			
+          <button
+            id="advancedsearch"
+            x="111" y="6"
+            image="advancedsearch.png"
+            imgstates="1"
+            count="4"/>		
+			
+          <button
+            id="quicksearch"
+            x="246" y="8"
+            image="quicksearch.png"
+            imgstates="1"
+            count="4"/>
+
+          <editor
+            id="quicksearch"
+            bounds="150;9;95;13"
+            textalign="Center"
+            font="Tahoma; 8,25pt"
+            forecolor="55; 55; 55"/>          
+          
+          <button
+            id="prevplaylist"
+            x="268" y="6"
+            image="prevplaylist.png"
+            imgstates="1"
+            count="4"/>
+
+
+          <button
+            id="quickplaylistoptions"
+            x="286" y="6"
+            image="quickplaylistoptions.png"
+            imgstates="1"
+            count="4"/>	
+          <button
+            id="playlistmanager"
+            x="304" y="6"
+            image="playlistmanager.png"
+            imgstates="1"
+            count="4"/>	
+          <button
+            id="nextplaylist"
+            x="322" y="6"
+            image="nextplaylist.png"
+            imgstates="1"
+            count="4"/>				
+			
+			
+        </panel>
+        <panel id="leftbarpanel" skin='leftbarskin.png' dock='Left'/>
+        <panel id="rightbarpanel" skin='rightbarskin.png' dock='Right'/>
+      </panel>
+      <panel id="bottombarpanel" skin='bottombarskin.png' dock='Bottom'/>
+      <panel id="plstopdock" skin='plstopdock.png' dock='Top'>
+        <button
+          id="mainmenu"
+          x="10" y="4"
+          image="plsmainmenu.png"
+          imgstates="1"
+          count="4"/>
+        <button
+          id="playlist"
+          x="330" y="4"
+          image="hidepls.png"
+          imgstates="1"
+          count="4"/>
+      </panel>
+      
+    </playlistform>
+  </main>
+</skin>

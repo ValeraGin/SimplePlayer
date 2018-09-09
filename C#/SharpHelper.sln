@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tags", "Tags\Tags.csproj", "{FAA5F56B-15CB-4602-974E-9079946870D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BassWrapper", "BassWrapper\BassWrapper.csproj", "{13299D99-9E4C-4A5D-B152-99D710406B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlEx", "ControlsEx\ControlEx.csproj", "{C002FBD7-0953-4DCA-9A3B-1AD4FCEE7417}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA5F56B-15CB-4602-974E-9079946870D2}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA5F56B-15CB-4602-974E-9079946870D2}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FAA5F56B-15CB-4602-974E-9079946870D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA5F56B-15CB-4602-974E-9079946870D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13299D99-9E4C-4A5D-B152-99D710406B37}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{13299D99-9E4C-4A5D-B152-99D710406B37}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{13299D99-9E4C-4A5D-B152-99D710406B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13299D99-9E4C-4A5D-B152-99D710406B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C002FBD7-0953-4DCA-9A3B-1AD4FCEE7417}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C002FBD7-0953-4DCA-9A3B-1AD4FCEE7417}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C002FBD7-0953-4DCA-9A3B-1AD4FCEE7417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C002FBD7-0953-4DCA-9A3B-1AD4FCEE7417}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

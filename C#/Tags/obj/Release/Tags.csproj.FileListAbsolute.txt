@@ -1,0 +1,3 @@
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\Tags\bin\Release\Tags.dll
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\Tags\obj\Release\ResolveAssemblyReference.cache
+D:\ValeraGin\Projects\PascalABC.NET\Simple Player\C#\Tags\obj\Release\Tags.dll
